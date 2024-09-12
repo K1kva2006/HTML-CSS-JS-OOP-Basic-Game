@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: end;
+    flex-direction:column-reverse;
+    background-color: gainsboro;
+}
+#ground {
+    width: 100%;
+    height: 80px;
+    background-color: green;
+}
